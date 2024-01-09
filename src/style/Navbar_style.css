@@ -1,0 +1,11 @@
+
+.nav{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    background-color: rgba(0, 0, 0, 0.637);
+    justify-content: center;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0px 10%;
+}

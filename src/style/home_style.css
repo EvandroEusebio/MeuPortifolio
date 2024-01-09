@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200;12..96,300;12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&display=swap");
+
+/*font-family: 'Bricolage Grotesque', sans-serif;*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Bricolage Grotesque", sans-serif;
+  color: #fff;
+}
+
+.container {
+  background-color: #010110;
+  height: auto;
+  flex-direction: column;
+  padding-top: 10px;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  height: 70vh;
+}
+
+.banner h1 {
+  color: #fff;
+  font-size: 2.9em;
+  letter-spacing: 2px;
+  z-index: 100;
+  height: 60px;
+}
+
+.banner .diferent {
+  color: #fff;
+  font-weight: 400;
+}
+
+.banner div p {
+  text-align: center;
+  font-size: 14px;
+}
+
+.banner .container-citation {
+  width: 50%;
+  z-index: 100;
+}
+
+.container-btn {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  z-index: 100;
+}
+
+.img {
+  width: 50px;
+  position: absolute;
+
+  box-shadow: 0 0 50px rgba(255, 255, 0, 0.425);
+  border-radius: 50%;
+  -webkit-filter: blur(3px);
+  animation: float 15s ease;
+  animation-iteration-count: infinite;
+}
+
+@keyframes float {
+  0%{
+    transform:  translateY(0px) rotate(15deg);
+  }
+  50%{
+    transform: translateY(50px) rotate(-15deg);
+  }
+  100%{
+    transform: translateY(0px) rotate(15deg);
+  }
+  
+}
+
+
+.container-footer-scrolling {
+  overflow: hidden;
+  background: #000000;
+  white-space: nowrap;
+  position: relative;
+  margin-top: 100px;
+  padding: 20px 0px;
+}
+
+.container-footer-scrolling div{
+    animation:  animate 30s linear infinite;
+    animation-delay: calc(20 * -1);
+    display: flex;
+    gap:  50px;
+}
+
+@keyframes animate {
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-200%);
+    }
+}
+
+.container-footer-scrolling div span{
+    font-size: 20px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 300;
+    
+    
+    
+}

@@ -1,0 +1,18 @@
+
+.button{
+    text-decoration: none;
+}
+
+
+.button div{
+    background-color: #292929;
+    padding: 10px;
+    width: 100px;
+    border-radius: 20px;
+
+
+}
+
+.button div:hover{
+    background-color: #6E40FF;
+}
