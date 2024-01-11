@@ -9,7 +9,7 @@
 }
 
 .container {
-  background-color: #010110;
+  background-color: #000003;
   height: auto;
   flex-direction: column;
   padding-top: 10px;
@@ -81,7 +81,7 @@
 
 .container-footer-scrolling {
   overflow: hidden;
-  background: #000000;
+  background: #101010;
   white-space: nowrap;
   position: relative;
   margin-top: 100px;
@@ -109,8 +109,31 @@
     padding: 5px 10px;
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-weight: 300;
-    
-    
-    
+    font-weight: 300;    
 }
+
+.containerServices{
+  padding-top: 100px;
+  display: flex;
+  margin: 0 10%;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  
+}
+@media screen and (max-width: 713px) {
+  .containerServices {
+    flex-direction: column;
+    gap: 25px;
+  }
+}
+
+/*
+@media screen and (max-width: 607px) {
+  .banner h1 {
+    font-size: 100%;
+  }
+}
+*/
+
+

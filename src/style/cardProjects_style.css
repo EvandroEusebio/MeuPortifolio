@@ -1,0 +1,76 @@
+.containerCardProject {
+  width: 350px;
+  background-color: #101010;
+  height: auto;
+  
+  border-radius: 10px;
+}
+
+.containerCardProject:hover {
+  border: 2px dashed #ffffff38;
+}
+
+.containerSubcard {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: all 1.2s;
+  border-radius: 10px;
+  background-color: #000;
+}
+
+.containerSubcard:hover {
+  background-color: #6e40ff;
+  transform: rotate(-10deg);
+  cursor: pointer;
+}
+
+.containertitleCard {
+  padding: 20px;
+}
+
+.containertitleCard h3 {
+  font-size: 18px;
+  font-weight: 300;
+  
+}
+
+.titleCard {
+  background-color: #252525;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon {
+  background-color: #6e40ff;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.descCard {
+  padding: 0px 20px;
+}
+
+.containerImgProject {
+  padding: 20px;
+  
+}
+
+.containerImgProject img {
+  position: relative;
+  width: 100%;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 915px) {
+    .containerCardProject {
+      width: 100%;
+    }
+  }

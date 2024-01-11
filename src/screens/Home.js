@@ -2,6 +2,10 @@ import Navbar from "../components/Navbar";
 import "../style/home_style.css";
 import Button_Links from "../components/Button_links";
 import SelfMe from "../components/SelfMe";
+import CardServices from "../components/CardServices";
+import SectionMySkills from "../components/SectionMySkills";
+import SectionMyProject from "../components/SectionMyProject";
+
 
 export default function Home() {
   return (
@@ -75,7 +79,14 @@ export default function Home() {
           <span>Sempre ON</span>
         </div>
       </div>
+      <div className="containerServices">
+        <CardServices/>
+        <CardServices/>
+        <CardServices/>
+      </div>
       <SelfMe/>
+      <SectionMySkills/>
+      <SectionMyProject/>
     </div>
   );
 }
