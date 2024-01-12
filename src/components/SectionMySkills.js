@@ -6,7 +6,7 @@ export default function SectionMySkills(props) {
       <h2 className="Tit">Minhas Skills</h2>
       <div className="containerMySkills">
       <div className="section">
-        <img src="./self.png" className="img-self" />
+        <img src="./Soft-skills.png" className="img-self" />
       </div>
 
       <div className="containerLogo section">
